@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(cors())
 
 app.get("/sensor1", (req, res) => {
-    res.send("Halo Guys David Disini!")
+    res.send("Halo ini nisa!")
 });
 app.post("/sensorpost", (req, res) => {
     res.send(
